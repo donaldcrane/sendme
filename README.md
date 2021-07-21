@@ -1,5 +1,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/donaldcrane/sendme/badge.svg?branch=main)](https://coveralls.io/github/donaldcrane/sendme?branch=main)
 
+[![NodeJS CI](https://github.com/donaldcrane/sendme/actions/workflows/node.js.yml/badge.svg)](https://github.com/donaldcrane/sendme/actions/workflows/node.js.yml)
+
 # sendme
 
 Sendme is a platform where users can sign up with their basic information and sent and add money to their account
