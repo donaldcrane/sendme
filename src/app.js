@@ -19,7 +19,12 @@ app.use(cookieSession({
 app.use("/api/v1", router);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Lawrence Price app");
+  res.send("Welcome to  Sendme app");
+});
+// logout
+app.get("/logout", (req, res) => {
+  req.logOut();
+  res.redirect("/");
 });
 
 const port = process.env.PORT || 5000;

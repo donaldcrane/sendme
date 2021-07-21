@@ -6,7 +6,7 @@ chai.should();
 
 chai.use(chaiHttp);
 
-describe("/ Welcome to Lawrence Price app", () => {
+describe("/ Welcome to Sendme app", () => {
   it("it should get the welcome page", done => {
     chai
       .request(server)
