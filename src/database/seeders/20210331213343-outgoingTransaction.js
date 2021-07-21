@@ -1,0 +1,91 @@
+module.exports = {
+  up: async (queryInterface, Sequelize) => {
+    await queryInterface.bulkInsert("Debits", [
+    {
+      id: "c375c640-81ff-405a-89a8-460ea2f71875",
+      userId: "98e0350f-ed09-46b0-83d7-8a135afeaf84",
+      amount: 10000,
+      receiverAccount: 2070122558,
+      receiverName: "Taiwo Friday",
+      transactionType: "Transfer",
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    {
+      id: "a430e505-937b-4908-9422-7aa57044e5b8",
+      userId: "fc1f4e85-8e83-4a38-ab1e-8e4da2c6ddbb",  
+      amount: 6000,
+      receiverAccount: 2070122778,
+      receiverName: "Francis Adeleke",
+      transactionType: "Transfer",
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    {
+      id: "7cc6de97-2ed6-4422-9ce2-9ff22cc5ed6e",
+      userId: "fc1f4e85-8e83-4a38-ab1e-8e4da2c6ddbb",
+      amount: 40000,
+      receiverAccount: 2070122558,
+      receiverName: "Taiwo Friday",
+      transactionType: "Withdrawal",
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    {
+      id: "6cbaa746-6e42-453e-91f4-c0de15fb442e",
+      userId: "98e0350f-ed09-46b0-83d7-8a135afeaf84",
+      amount: 10000,
+      receiverAccount: 2070122778,
+      receiverName: "Francis Adeleke",
+      transactionType: "Withdrawal",
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    {
+      id: "c375c640-81ff-405a-89a8-460ea2f71ff3",
+      userId: "fc1f4e85-8e83-4a38-ab1e-8e4da2c6dd25",
+      amount: 10000,
+      receiverAccount: 2070122778,
+      receiverName: "Francis Adeleke",
+      transactionType: "Transfer",
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    {
+      id: "a430e505-937b-4908-9422-7aa57044e84a",
+      userId: "fc1f4e85-8e83-4a38-ab1e-8e4da2c6dd25",  
+      amount: 60000,
+      receiverAccount: 2070125789,
+      receiverName: "Ishola Wizkid",
+      transactionType: "Withdrawal",
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    {
+      id: "7cc6de97-2ed6-4422-9ce2-9ff22cc5e9cc",
+      userId: "57af7c29-efb2-434e-9fce-b87c77447aaa",
+      amount: 40000,
+      receiverAccount: 2070122778,
+      receiverName: "Francis Adeleke",
+      transactionType: "Transfer",
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    },
+    {
+      id: "6cbaa746-6e42-453e-91f4-c0de15fb4bab",
+      userId: "57af7c29-efb2-434e-9fce-b87c77447aaa",
+      amount: 30000,
+      receiverAccount: 2070122558,
+      receiverName: "Taiwo Friday",
+      transactionType: "Transfer",
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    }
+    ,], 
+    {});
+  },
+
+  down: async (queryInterface, Sequelize) => {
+
+  },
+};
