@@ -4,7 +4,7 @@
 
 # sendme
 
-Sendme is a platform where users can sign up with their basic information and sent and add money to their account
+Sendme is a platform where users can sign up with their basic information, send and add money to their account
 
 # Documentation
 
